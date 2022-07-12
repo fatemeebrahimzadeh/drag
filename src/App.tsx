@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <div
-        className='App__dragZone'
+        className='App__drag'
         ref={dragReference}
         onMouseDown={dragMouseDown} >
         <img src={logo} className="App-logo" alt="logo" />

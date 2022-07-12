@@ -10,7 +10,7 @@
   color: white;
 }
 
-.App__dragZone {
+.App__drag {
   position: absolute;
   cursor: pointer;
 }
