@@ -26,6 +26,7 @@ function App() {
         onMouseDown={dragMouseDown} >
         <img src={logo} className="App-logo" alt="logo" />
       </div>
+      <h1>Drag Logo Please</h1>
     </div>
   );
 }

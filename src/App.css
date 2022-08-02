@@ -1,3 +1,8 @@
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;
@@ -17,7 +22,13 @@
 
 .App-logo {
   height: 40vmin;
+  cursor: pointer;
   pointer-events: none;
+}
+
+h1 {
+  position: absolute;
+  bottom: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
